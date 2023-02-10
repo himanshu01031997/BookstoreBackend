@@ -1,0 +1,10 @@
+D:\Bookstore-backend\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.deps.json
+D:\Bookstore-backend\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.dll
+D:\Bookstore-backend\CommonLayer\bin\Debug\netcoreapp3.1\CommonLayer.pdb
+D:\Bookstore-backend\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csproj.AssemblyReference.cache
+D:\Bookstore-backend\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bookstore-backend\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.AssemblyInfoInputs.cache
+D:\Bookstore-backend\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.AssemblyInfo.cs
+D:\Bookstore-backend\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.csproj.CoreCompileInputs.cache
+D:\Bookstore-backend\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.dll
+D:\Bookstore-backend\CommonLayer\obj\Debug\netcoreapp3.1\CommonLayer.pdb
