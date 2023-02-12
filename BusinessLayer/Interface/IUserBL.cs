@@ -13,7 +13,7 @@ namespace BusinessLayer.Interface
         public bool ResetPassword(string EmailId, string Password, string ConfirmPassword);
 
         public UserModel GetUserById(int UserId);
-
+        public List<UserModel> GetAllUser();
 
 
     }

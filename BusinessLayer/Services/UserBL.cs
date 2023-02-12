@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Interface;
 using CommonLayer.Model;
 using RepoLayer.Interface;
+using RepoLayer.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -64,6 +65,17 @@ namespace BusinessLayer.Services
             try
             {
                 return this.userRL.GetUserById(UserId);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+        public List<UserModel> GetAllUser()
+        {
+            try
+            {
+                return this.userRL.GetAllUser();
             }
             catch (Exception e)
             {

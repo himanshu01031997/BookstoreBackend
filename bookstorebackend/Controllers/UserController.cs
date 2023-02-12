@@ -111,5 +111,26 @@ namespace bookstorebackend.Controllers
                 throw ex;
             }
         }
+        [HttpGet("Getalluser")]
+        public ActionResult GetallUser()
+        {
+            try
+            {
+                var responce = userBL.GetAllUser();
+                if(responce != null)
+                {
+                    return Ok(new { success = true, message = "got all the user" ,Response=responce });
+                }
+                else
+                {
+                    return BadRequest(new { success = false, message = "didnot got all the user" });
+
+                }
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
+        }
     }
 }

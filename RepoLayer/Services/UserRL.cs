@@ -248,6 +248,50 @@ namespace RepoLayer.Services
             string result = new string(decodedchar);
             return result;
         }
+        public List<UserModel> GetAllUser()
+        {
+            SqlConnection con = new SqlConnection(this.configuration.GetConnectionString("BookStoreConnection"));
+            List<UserModel> userm = new List<UserModel>();
+
+            try
+            {
+                con.Open();
+                string query = $"select * from Users";
+                SqlCommand cmd = new SqlCommand(query, con);
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        UserModel userModel = new UserModel()
+                        {
+                            FullName = reader.GetString(1),
+                            EmailId = reader.GetString(2),
+                            Password = reader.GetString(3),
+                            PhoneNumber = reader.GetInt64(4),
+
+
+                        };
+                        userm.Add(userModel);
+                    }
+                    return userm;
+                }
+                else
+                {
+                    return null;
+
+                }
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
 
 
     }

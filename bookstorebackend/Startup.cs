@@ -86,6 +86,9 @@ namespace bookstorebackend
             services.AddTransient<IAdminBL, AdminBL>();
             services.AddTransient<IBookBL, BookBL>();
             services.AddTransient<IBookRL, BookRL>();
+            services.AddTransient<ICartBL, CartBL>();
+            services.AddTransient<ICartRL, CartRL>();
+
 
 
             services.AddCors(options =>
