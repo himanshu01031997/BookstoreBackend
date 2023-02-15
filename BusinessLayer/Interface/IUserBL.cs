@@ -14,6 +14,8 @@ namespace BusinessLayer.Interface
 
         public UserModel GetUserById(int UserId);
         public List<UserModel> GetAllUser();
+        public UserTicket CreateTicketForPw(string emailid, string token);
+
 
 
     }

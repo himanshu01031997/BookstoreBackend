@@ -83,3 +83,14 @@ D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\
 D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Bookstore-backend\bookstorebackend\bin\Debug\netcoreapp3.1\Experimental.System.Messaging.dll
+D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\Automatonymous.dll
+D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\GreenPipes.dll
+D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\MassTransit.dll
+D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\MassTransit.AspNetCoreIntegration.dll
+D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\MassTransit.RabbitMqTransport.dll
+D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\NewId.dll
+D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Bookstore-backend\Bookstorebackend\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll

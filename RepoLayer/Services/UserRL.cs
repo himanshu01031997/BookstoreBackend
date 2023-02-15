@@ -291,6 +291,37 @@ namespace RepoLayer.Services
                 con.Close();
             }
         }
+        public UserTicket CreateTicketForPw(string emailid, string token)
+        {
+            SqlConnection con = new SqlConnection(this.configuration.GetConnectionString("BookStoreConnection"));
+
+            try
+            {
+                string query = $"Select * From Users Where EmailId={emailid}";
+                SqlCommand sqlCommand = new SqlCommand(query, con);
+                sqlCommand.Parameters.AddWithValue("@EmailId", emailid);
+                SqlDataReader datareader=sqlCommand.ExecuteReader();
+                if (datareader.Read())
+                {
+                    UserTicket ticket = new UserTicket();
+                    ticket.Fullname= datareader["Fullname"].ToString();
+                    ticket.EmailId = emailid;
+                    ticket.Token = token;
+                    ticket.IssueAt = DateTime.Now;
+                    return ticket;
+                }
+                else
+                {
+                    return null;
+
+                }
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
+            
+        }
 
 
 

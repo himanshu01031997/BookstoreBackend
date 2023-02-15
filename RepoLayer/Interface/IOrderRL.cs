@@ -1,0 +1,13 @@
+﻿using CommonLayer.Model;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace RepoLayer.Interface
+{
+    public interface IOrderRL
+    {
+        public string AddOrder(OrderModel addOrder, int userId);
+
+    }
+}

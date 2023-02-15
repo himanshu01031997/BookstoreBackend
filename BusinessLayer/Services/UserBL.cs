@@ -82,6 +82,19 @@ namespace BusinessLayer.Services
                 throw e;
             }
         }
+        public UserTicket CreateTicketForPw(string emailid, string token)
+        {
+
+            try
+            {
+                return this.userRL.CreateTicketForPw(emailid, token);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
 
 
 
